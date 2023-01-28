@@ -1,0 +1,14 @@
+@import "../../../style-config/variable.scss";
+
+.arrow-icon {
+  width: 21px;
+  height: 21px;
+  background: $yellow;
+  border-radius: 41px;
+  display: grid;
+  place-items: center;
+  margin-left: 10px;
+  svg {
+    rotate: -45deg;
+  }
+}
