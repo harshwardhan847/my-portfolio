@@ -7,10 +7,9 @@ import IntroContent from "./intro-content";
 const Intro = () => {
   return (
     <div className="Intro-section">
-      <div className="vector-bg" id="parallax">
+      <div className="vector-bg" id="parallax"></div>
         <img src={cloud} className="cloud" alt="" />
         <img src={cloudSoft} className="cloud-soft" alt="" />
-      </div>
       <div className="content">
         <Navigation />
         <IntroContent/>

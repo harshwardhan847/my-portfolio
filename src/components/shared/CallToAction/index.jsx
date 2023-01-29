@@ -2,11 +2,11 @@ import React from "react";
 import Arrow from "../arrow";
 import "./style.scss";
 
-const CallToAction = ({ text }) => {
+const CallToAction = ({ text, icon, action }) => {
   return (
     <div className="call-to-action">
       <span className="text">{text}</span>
-      <Arrow/>
+      {icon?<div className="icon">{icon}</div>:<Arrow/>}
     </div>
   );
 };
