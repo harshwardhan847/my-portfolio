@@ -4,9 +4,9 @@ import "./style.scss";
 
 const CallToAction = ({ text, icon, action }) => {
   return (
-    <div className="call-to-action">
+    <div className="call-to-action" onClick={action}>
       <span className="text">{text}</span>
-      {icon?<div className="icon">{icon}</div>:<Arrow/>}
+      {icon ? <div className="icon">{icon}</div> : <Arrow />}
     </div>
   );
 };

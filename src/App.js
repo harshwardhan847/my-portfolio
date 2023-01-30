@@ -1,6 +1,7 @@
 import "./App.scss";
 import Blogs from "./components/blogs";
 import Contact from "./components/contact";
+import Footer from "./components/footer";
 import Intro from "./components/intro";
 import Portfolio from "./components/portfolio";
 import Skills from "./components/skills";
@@ -12,6 +13,7 @@ function App() {
       <Portfolio/>
       <Blogs/>
       <Contact/>
+      <Footer/>
     </div>
   );
 }

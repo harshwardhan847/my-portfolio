@@ -2,6 +2,7 @@ import React from "react";
 import Section from "../shared/section";
 import "./style.scss";
 import ContactInfo from './contact-info'
+import Form from "./form";
 const Contact = () => {
   return (
     <Section
@@ -11,6 +12,7 @@ const Contact = () => {
     >
       <div className="contact-content-wrapper">
         <ContactInfo/>
+        <Form/>
       </div>
     </Section>
   );
