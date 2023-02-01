@@ -2,21 +2,34 @@
 @import "../../../style-config/variable.scss";
 
 .top-navigation-bar {
-  width: 100%;
+  width: 90vw;
   display: flex;
   align-items: center;
   justify-content: space-between;
   margin-top: 60px;
   .app-logo {
-    width: 143px;
+    width: 50px;
     img {
       width: 100%;
+      background: red;
       display: block;
     }
   }
   .navigation {
     display: flex;
     align-items: center;
+    @include small-screen {
+      flex-direction: column;
+      position: absolute;
+      justify-content: center;
+      z-index: 3;
+      gap: 50px;
+      right: -100%;
+      top: 0;
+      height: 100vh;
+      width: 50vw;
+      background-color: $yellow;
+    }
     .navigation-item {
       color: $white;
       @include typography((18px, 400, 1));

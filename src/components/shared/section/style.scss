@@ -12,7 +12,7 @@
         background-color: $black-light;
     }
     .content {
-        width: 1200px;
+        width: 80vw;
         padding: 0 20px ;
         position: relative;
         display: flex;
@@ -22,7 +22,6 @@
         width: 100%;
         text-align: center;
         color: $white;
-        max-width: 500px;
     }
     }
 }

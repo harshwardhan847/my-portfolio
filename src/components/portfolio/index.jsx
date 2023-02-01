@@ -6,50 +6,50 @@ import Showcase from "./showcase";
 const projectsData = [
   {
     id: 1,
-    name: "Healthy Food Restraunt",
-    tags: ["web-app", "mobile-app"],
+    name: "Calculator",
+    tags: ["mobile-app"],
     media: {
-      thumbnail: require("../../images/portfolio/thumb-7.jpg"),
+      thumbnail: require("../../images/portfolio/thumb-7.png"),
     },
   },
   {
     id: 2,
-    name: "Anna & Daniel",
-    tags: ["web-page"],
+    name: "Tic-Tac-Toe",
+    tags: ["mobile-app"],
     media: {
-      thumbnail: require("../../images/portfolio/thumb-2.jpg"),
+      thumbnail: require("../../images/portfolio/thumb-2.png"),
     },
   },
   {
     id: 3,
-    name: "Web Design Landing Page",
-    tags: ["web-page"],
+    name: "Weather App",
+    tags: ["mobile-app"],
     media: {
-      thumbnail: require("../../images/portfolio/thumb-8.jpg"),
+      thumbnail: require("../../images/portfolio/thumb-8.png"),
     },
   },
   {
     id: 4,
-    name: "Business Analytics Web App",
-    tags: ["web-app", "mobile-app"],
+    name: "Website Design",
+    tags: ["web-page"],
     media: {
-      thumbnail: require("../../images/portfolio/thumb-1.jpg"),
+      thumbnail: require("../../images/portfolio/thumb-1.png"),
     },
   },
   {
     id: 5,
-    name: "Limitless",
+    name: "Web Calculator",
     tags: ["web-app", "web-page"],
     media: {
-      thumbnail: require("../../images/portfolio/thumb-6.jpg"),
+      thumbnail: require("../../images/portfolio/thumb-6.png"),
     },
   },
   {
     id: 6,
-    name: "Dashboard",
+    name: "OP Trendy",
     tags: ["product", "web-app", "mobile-app"],
     media: {
-      thumbnail: require("../../images/portfolio/thumb-4.jpg"),
+      thumbnail: require("../../images/portfolio/thumb-4.png"),
     },
   },
   {
