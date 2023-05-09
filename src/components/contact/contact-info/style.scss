@@ -8,6 +8,13 @@
     padding: 30px;
     border-radius: 6px;
     color: $gray;
+    @include mobile-screen{
+        width: 90%;
+        padding: 10px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        align-self: center;
+    }
     h4 {
         line-height: 34px;
         margin-bottom: 20px;

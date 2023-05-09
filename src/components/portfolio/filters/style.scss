@@ -15,9 +15,15 @@
     @include typography(22px, 400, 28px);
     padding: 10px 20px;
     margin: 0 2.5px;
+    text-align: center;
     box-shadow: inset 0 0 0 0 $white;
     transition: color 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
     cursor: pointer;
+    @include mobile-screen{
+      @include typography(15px, 400, 28px);
+      
+    padding: 5px 10px;
+    }
     &:hover,
     &.active {
       box-shadow: inset 200px 0 0 0 $white;

@@ -3,15 +3,30 @@
 .skills-content-wrapper {
     display: flex;
     align-items: center;
+    flex-direction: column;
+    @include small-screen {
+        flex-direction: row;
+    }
     .left-col {
         width: 40%;
         display: flex;
         align-items: center;
         justify-content: center;
+        @include mobile-screen{
+            width: 90%;
+            position: absolute;
+            background-size: cover;
+            z-index: 0;
+        }
         img {
             width: 100%;
             max-width: 453px;
             display: block;
+            @include mobile-screen{
+                max-width:none;
+
+                width: 100%;
+            }
         }
     }
     .right-col {
@@ -24,6 +39,16 @@
         p {
             @include typography(18px, 400, 24px);
             margin-bottom: 15px;
+        }
+        @include mobile-screen{
+            z-index: 2;
+            @include glassmorphism-effect;
+            padding: 1rem;
+            width: 90%;
+            margin-left: 0;
+            border-radius: 1rem;
+            padding-top: 2rem;
+            padding-bottom: 2rem;
         }
     }
 }

@@ -11,6 +11,9 @@
   overflow: hidden;
   margin-right: 20px;
   cursor: pointer;
+  @include mobile-screen{
+    width: 100%;
+  }
   .image-section {
     width: 100%;
     height: 250px;

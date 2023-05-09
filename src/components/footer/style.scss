@@ -31,6 +31,10 @@
             &:hover {
                 opacity: 0.5;
             }
+            @include mobile-screen{
+                font-size: 15px !important;
+                text-align: center;
+            }
         }
     }
     .social-icons {

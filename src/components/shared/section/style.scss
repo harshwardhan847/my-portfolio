@@ -1,4 +1,5 @@
 @import '../../../style-config/variable.scss';
+@import '../../../style-config/mixins.scss';
 
 .section{
     padding: 100px 0;
@@ -18,11 +19,17 @@
         display: flex;
         align-items: center;
         flex-direction: column;
+        @include mobile-screen{
+            max-width: 420px;
+            padding: 0;
+        }
+
     .section-title {
         width: 100%;
         text-align: center;
         color: $white;
         max-width: 500px;
+        
     }
     }
 }

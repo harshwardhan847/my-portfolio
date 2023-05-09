@@ -15,6 +15,16 @@
     @content;
   }
 }
+@mixin small-screen {
+  @media only screen and (min-width: 950px) {
+    @content;
+  }
+}
+@mixin mobile-screen {
+  @media only screen and (max-width: 425px) {
+    @content;
+  }
+}
 
 @mixin glassmorphism-effect {
     background: rgba(255,255,255,0.35);

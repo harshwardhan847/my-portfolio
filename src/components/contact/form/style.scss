@@ -4,14 +4,27 @@
 .query-form {
   width: calc(100% - 375px);
   margin-left: 20px;
+  @include mobile-screen{
+    width: 80%;
+    margin-left: 0;
+    padding:0 1rem;
+  }
   form {
     display: flex;
     flex-flow: row wrap;
     margin-top: -10px;
+    @include mobile-screen{
+      margin-top: 0
+    }
   }
   .input-field {
     width: calc(50% - 59px);
     margin: 29px;
+    @include mobile-screen{
+      width: 100%;
+      margin: 0;
+      margin-top: 29px;
+    }
     &.full-width {
         width: 100%;
     }
@@ -60,6 +73,10 @@
     margin-left: 29px;
     margin-top: 10px;
     cursor: pointer;
+    @include mobile-screen{
+      margin: 0;
+      margin-top: 29px;
+    }
 
   }
 }
