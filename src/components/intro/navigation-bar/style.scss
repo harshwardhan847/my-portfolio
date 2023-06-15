@@ -2,7 +2,7 @@
 @import "../../../style-config/variable.scss";
 
 .top-navigation-bar {
-  width: 90vw;
+  width: 100%;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -11,14 +11,13 @@
     margin-top: 60px;
   }
   .app-logo {
-    width: 100px;
+    width: 45px;
     flex-shrink: 0;
     @include small-screen{
-    width: 143px;
+    width: 50px;
     }
     img {
       width: 100%;
-      background: red;
       display: block;
     }
   }
@@ -34,7 +33,8 @@
     align-items: center;
     position: fixed;
     width: 100%;
-    height: 100%;
+    height: 100%; 
+    transition: all .2s ease;
     top: 0;
     left: 0;
     background-color: $black;
