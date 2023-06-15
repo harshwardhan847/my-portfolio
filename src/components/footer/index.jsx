@@ -4,7 +4,7 @@ import {
   FaYoutube,
   FaGithub,
   FaLinkedinIn,
-  FaStackOverflow,
+  FaTwitter,
   FaInstagram,
 } from "react-icons/fa";
 import scrollToSection from '../utils/helper';
@@ -45,11 +45,11 @@ const Footer = () => {
           </li>
         </ul>
         <div className="social-icons">
-            <SocialIcon color={'#ff0000'} icon={<FaYoutube/>}link='https://www.youtube.com'/>
-            <SocialIcon color={'#0D2636'} icon={<FaGithub/>}link='https://www.youtube.com'/>
-            <SocialIcon color={'#E84C88'} icon={<FaInstagram/>}link='https://www.youtube.com'/>
-            <SocialIcon color={'#0A66C2'} icon={<FaLinkedinIn/>}link='https://www.youtube.com'/>
-            <SocialIcon color={'#f2740d'} icon={<FaStackOverflow/>}link='https://www.youtube.com'/>
+            <SocialIcon color={'#ff0000'} icon={<FaYoutube/>}link='https://www.youtube.com/@codewithharsh936'/>
+            <SocialIcon color={'#0A66C2'} icon={<FaLinkedinIn/>}link='https://www.linkedin.com/in/harsh-wardhan-58816b247/'/>
+            <SocialIcon color={'#0D2636'} icon={<FaGithub/>}link='https://github.com/harshwardhan847'/>
+            <SocialIcon color={'#E84C88'} icon={<FaInstagram/>}link='https://www.instagram.com/harsh_wardhan847/'/>
+            <SocialIcon color={'#1d9bf0'} icon={<FaTwitter/>}link='https://twitter.com/HarshWa44754737'/>
         </div>
         <div className="bottom-bar">
             <div className="copyright-text">

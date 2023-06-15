@@ -21,9 +21,7 @@ const IntroContent = () => {
             <span className="big-text">Harsh Wardhan</span>
           </h1>
           <p>
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Fuga natus
-            numquam aliquam placeat laborum quos ipsa sapiente totam quaerat
-            quae nostrum omnis officiis, sed libero{" "}
+          A driven and dedicated computer science student currently pursuing my Bachelor's of Computer Application (B.C.A.). I have a strong passion for technology and its ability to drive positive change in the world. My ultimate goal is to use my skills and knowledge to build innovative solutions to real-world problems and make a meaningful impact.
           </p>
           <CallToAction text="Get Started" />
         </div>
